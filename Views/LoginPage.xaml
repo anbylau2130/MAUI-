@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Com.Kingdee.App.Views.LoginPage">
+
+    <VerticalStackLayout x:Name="LoginPageLayout">
+        <!--VerticalOptions="Center"-->
+
+
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="50">
+            <Label Text="UserName" 
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"
+               HorizontalOptions="Start"
+               ></Label>
+            <Entry x:Name="UserName" 
+               Text="{ Binding UserName}"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="Center"
+               Placeholder="请输入用户名"
+               WidthRequest="200"
+               ></Entry>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="50"  >
+            <Label Text="Password" 
+               HorizontalTextAlignment="Start"
+               VerticalTextAlignment="Center"
+               HorizontalOptions="Start"
+        ></Label>
+            <Entry x:Name="Password" 
+               Text="{ Binding Password}"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="Center"
+               Placeholder="请输入密码"
+               IsPassword="True"
+               WidthRequest="200"
+               >
+            </Entry>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="50">
+            <Button Text="登录" 
+               Command="{Binding SubmitCommand  }"
+               BackgroundColor="Gray"/>
+            <Button Text="注册" 
+                    Command="{Binding RegisterCommand }"
+                BackgroundColor="Gray"/>
+            <Button Text="忘记密码？" 
+                Command="{Binding ForgetCommand  }"
+                BackgroundColor="Gray"/>
+        </HorizontalStackLayout>
+        <Label Text="" x:Name="CreateAccount"></Label>
+        <Border    HeightRequest="200" WidthRequest="400">
+            <!--使用boxview显示分割线-->
+            <BoxView HeightRequest="2" 
+                 Margin="0,20" 
+                 WidthRequest="400"
+                 BackgroundColor="Red"
+                 ></BoxView>
+        </Border>
+
+        <!--画笔线性渐变-->
+        <BoxView Shadow="True" WidthRequest="400" HeightRequest="20">
+            <BoxView.Background>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Color="Yellow" Offset="1"></GradientStop>
+                    <GradientStop Color="Red" Offset="0"></GradientStop>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+        <!--画笔径向渐变-->
+        <BoxView Shadow="True" WidthRequest="400" HeightRequest="20">
+            <BoxView.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Yellow" Offset="1"></GradientStop>
+                    <GradientStop Color="Red" Offset="0"></GradientStop>
+                </RadialGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+        <!--活动指示器-->
+        <ActivityIndicator Color="Blue" IsRunning="{Binding ActivityIndicatorIsRunning}"></ActivityIndicator>
+        <!--进度条 后台用代码创建，方便在viewmodel中使用-->
+        <!--<ProgressBar x:Name="LoginProgressBar" ProgressColor="Blue" Progress="0"  ></ProgressBar>-->
+    </VerticalStackLayout>
+
+</ContentPage>
