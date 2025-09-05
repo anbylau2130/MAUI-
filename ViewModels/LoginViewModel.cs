@@ -1,6 +1,7 @@
 ﻿using Com.Kingdee.App.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Messaging;
 
 namespace Com.Kingdee.App.ViewModels;
 
@@ -44,4 +45,12 @@ public partial class LoginViewModel
         Console.WriteLine("Completed");
     }
 
+
+    [RelayCommand]
+    private void SendMessage()
+    {
+        WeakReferenceMessenger.Default.Send(new ConstructMessage());
+    }
+
 }
+

@@ -476,3 +476,4 @@ D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\bin\Debug\net9.0-wind
 D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Com.Kingdee.App.sourcelink.json

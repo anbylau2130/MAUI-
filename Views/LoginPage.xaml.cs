@@ -7,8 +7,14 @@ using Com.Kingdee.App.ViewModels;
 using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Core;
 using CommunityToolkit.Maui.Core.Views;
+using CommunityToolkit.Mvvm.Messaging;
 
 namespace Com.Kingdee.App.Views;
+
+public partial class ConstructMessage
+{
+
+}
 
 public partial class LoginPage : ContentPage
 {
@@ -27,11 +33,16 @@ public partial class LoginPage : ContentPage
         LoginPageLayout.Children.Add(LoginProgressBar);
 
         BindingContext = vm;
+
+
+        WeakReferenceMessenger.Default.Register<ConstructMessage>(this, async (m, e) =>
+        {
+            await DisplayAlert("提示", "消息", "确定", "取消");
+        });
     }
 
     protected override void OnAppearing()
     {
-       
         base.OnAppearing();
     }
 
@@ -67,38 +78,38 @@ public partial class LoginPage : ContentPage
       */
 
 
-        for (double i = 0; i < 1; i += 0.1)
-        {
-            await LoginProgressBar.ProgressTo(i, 200, Easing.Linear);
-        }
+        //for (double i = 0; i < 1; i += 0.1)
+        //{
+        //    await LoginProgressBar.ProgressTo(i, 200, Easing.Linear);
+        //}
 
-        CancellationTokenSource cts = new CancellationTokenSource();
-        TimeSpan duration = TimeSpan.FromSeconds(10);
-        Action action=async () =>
-        {
-            await DisplayAlert("提示", "消息", "确定","取消");
-        };
-        var snackbarOptions= new SnackbarOptions
-        {
-            BackgroundColor = Colors.LightGray,
-            TextColor = Colors.Black,
-            ActionButtonTextColor = Colors.Blue,
-            CornerRadius = new CornerRadius(10),
-            Font = Microsoft.Maui.Font.SystemFontOfSize(14),
-            ActionButtonFont = Microsoft.Maui.Font.SystemFontOfSize(14)
-        };
-        var snackbar=Snackbar.Make(
-            "提示",
-            action,
-            "文本内容", 
-            duration,
-            snackbarOptions
-            );
-        await snackbar.Show(cts.Token);
-        Thread.Sleep(5000);
-        vm.ActivityIndicatorIsRunning = false;
+        //CancellationTokenSource cts = new CancellationTokenSource();
+        //TimeSpan duration = TimeSpan.FromSeconds(10);
+        //Action action=async () =>
+        //{
+        //    await DisplayAlert("提示", "消息", "确定","取消");
+        //};
+        //var snackbarOptions= new SnackbarOptions
+        //{
+        //    BackgroundColor = Colors.LightGray,
+        //    TextColor = Colors.Black,
+        //    ActionButtonTextColor = Colors.Blue,
+        //    CornerRadius = new CornerRadius(10),
+        //    Font = Microsoft.Maui.Font.SystemFontOfSize(14),
+        //    ActionButtonFont = Microsoft.Maui.Font.SystemFontOfSize(14)
+        //};
+        //var snackbar=Snackbar.Make(
+        //    "提示",
+        //    action,
+        //    "文本内容", 
+        //    duration,
+        //    snackbarOptions
+        //    );
+        //await snackbar.Show(cts.Token);
+        //Thread.Sleep(5000);
+        //vm.ActivityIndicatorIsRunning = false;
 
-        await LoginProgressBar.ProgressTo(1, 200, Easing.Linear);
+        //await LoginProgressBar.ProgressTo(1, 200, Easing.Linear);
 
     }
 }

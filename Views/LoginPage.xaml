@@ -49,6 +49,10 @@
             <Button Text="忘记密码？" 
                 Command="{Binding ForgetCommand  }"
                 BackgroundColor="Gray"/>
+
+            <Button Text="消息传递" 
+                    Command="{Binding SendMessageCommand  }"
+                    BackgroundColor="Blue"/>
         </HorizontalStackLayout>
         <Label Text="" x:Name="CreateAccount"></Label>
         <Border    HeightRequest="200" WidthRequest="400">

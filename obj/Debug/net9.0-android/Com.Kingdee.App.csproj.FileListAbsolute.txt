@@ -967,3 +967,4 @@ D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\obj\Debug\net9.0-andr
 D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.TapContract.dll
 D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+D:\Projects\netcore\MyCode\Com.Kingdee.App\Com.Kingdee.App\obj\Debug\net9.0-android\Com.Kingdee.App.sourcelink.json
