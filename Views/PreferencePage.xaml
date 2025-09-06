@@ -3,35 +3,35 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Com.Kingdee.App.Views.PreferencePage">
-<ScrollView>
-<VerticalStackLayout>
-    <!--自动换行 LineBreakMode="WordWrap"-->
-    <Label Margin="5"
+    <ScrollView>
+        <VerticalStackLayout>
+            <!--自动换行 LineBreakMode="WordWrap"-->
+            <Label Margin="5"
            Padding="5"
            HorizontalOptions="Center"
            LineBreakMode="WordWrap" 
            Text=""></Label>
-    <Button
+            <Button
         Margin="30,20,0,0"
        Clicked="Button_OnClicked"
         Command="{Binding SavePrefereceCommand}"
         Text="Save"></Button>
-	<CollectionView
+            <CollectionView
         Margin="20,20,10,10"
         ItemsSource="{Binding PreferenceList}"
         SelectionMode="None">
-	
-        <CollectionView.ItemTemplate>
-            <DataTemplate>
-                <Grid ColumnDefinitions="*,2*">
-                    <Entry
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="*,2*">
+                            <Entry
                         Grid.Column="0"
                         FontSize="10"
                         HorizontalOptions="Start"
                         Text="{Binding PreferencePrompt,Mode=TwoWay}"
                         TextColor="{OnPlatform Default= Black,iOS=White}"
                         ></Entry>
-                    <Entry
+                            <Entry
                         Grid.Column="1"
                         FontSize="10"
                         HeightRequest="32"
@@ -40,19 +40,19 @@
                         Text="{Binding PreferenceValue,Mode=TwoWay}"
                         TextColor="{OnPlatform Default= Black,iOS=White}"
                     ></Entry>
-                </Grid>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
 
-		</CollectionView>
+            </CollectionView>
 
-    <Button
+            <Button
         Margin="30,20,0,0"
         Clicked="Button_OnClicked"
         Command="{Binding SavePrefereceCommand}"
         Text="Save"></Button>
-</VerticalStackLayout>
+        </VerticalStackLayout>
 
-</ScrollView>
+    </ScrollView>
 
 </ContentPage>

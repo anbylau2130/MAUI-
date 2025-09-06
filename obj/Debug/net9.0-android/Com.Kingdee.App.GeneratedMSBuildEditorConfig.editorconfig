@@ -47,6 +47,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/CalculatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.CalculatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CalculatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CalculatePage.xaml
+
+[D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/GridLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.GridLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GridLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GridLayoutPage.xaml
+
 [D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.LoginPage.xaml
@@ -64,3 +76,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.PreferencePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\PreferencePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\PreferencePage.xaml
+
+[D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/ScrollViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.ScrollViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ScrollViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ScrollViewPage.xaml
+
+[D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/StackLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.StackLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StackLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StackLayoutPage.xaml
+
+[D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/StylePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.StylePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StylePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StylePage.xaml

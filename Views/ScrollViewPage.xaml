@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Com.Kingdee.App.Views.ScrollViewPage"
+             Title="ScrollView">
+    <ScrollView>
+        <VerticalStackLayout>
+
+
+          
+            <ScrollView>
+                <VerticalStackLayout>
+                    <Label Text="Direction=ColumnReverse Wrap=Wrap"></Label>
+                    <FlexLayout Direction="ColumnReverse" Wrap="Wrap" HeightRequest="100">
+                        <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                    </FlexLayout>
+                </VerticalStackLayout>
+            </ScrollView>
+
+
+            <ScrollView>
+                <VerticalStackLayout>
+                    <Label Text="Direction=ColumnReverse Wrap=NoWrap"></Label>
+                    <FlexLayout Direction="ColumnReverse" Wrap="NoWrap">
+                        <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                        <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                    </FlexLayout>
+                </VerticalStackLayout>
+
+            </ScrollView>
+                <ScrollView>
+                    <VerticalStackLayout>
+                    <Label Text="Direction=ColumnReverse Wrap=Reverse"></Label>
+                    <FlexLayout Direction="ColumnReverse" Wrap="Reverse" HeightRequest="100">
+                            <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Red" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Blue" WidthRequest="50" HeightRequest="20"></BoxView>
+                            <BoxView BackgroundColor="Green" WidthRequest="50" HeightRequest="20"></BoxView>
+                        </FlexLayout>
+                    </VerticalStackLayout>
+                </ScrollView>
+
+
+
+        </VerticalStackLayout>
+
+
+    </ScrollView>
+
+</ContentPage>

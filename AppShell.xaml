@@ -7,8 +7,8 @@
     Title="Com.Kingdee.App.LoginPage">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:PreferencePage}"
-        Route="PreferencePage" />
+        Title="CalculatePage"
+        ContentTemplate="{DataTemplate local:CalculatePage}"
+        Route="CalculatePage" />
 
 </Shell>

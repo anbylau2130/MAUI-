@@ -75,16 +75,40 @@
 	  <Compile Update="Views\MainPage.xaml.cs">
 	    <DependentUpon>MainPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\ScrollViewPage.xaml.cs">
+	    <DependentUpon>ScrollViewPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\StackLayoutPage.xaml.cs">
+	    <DependentUpon>StackLayoutPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\PreferencePage.xaml.cs">
 	    <DependentUpon>PreferencePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\StylePage.xaml.cs">
+	    <DependentUpon>StylePage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\CalculatePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\GridLayoutPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\ScrollViewPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\StackLayoutPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\PreferencePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\StylePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
