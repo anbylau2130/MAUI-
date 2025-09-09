@@ -6,9 +6,20 @@
     xmlns:local="clr-namespace:Com.Kingdee.App.Views"
     Title="Com.Kingdee.App.LoginPage">
 
-    <ShellContent
-        Title="CalculatePage"
-        ContentTemplate="{DataTemplate local:CalculatePage}"
-        Route="CalculatePage" />
-
+   
+    <TabBar>
+        <ShellContent
+            Title="MainPage"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        <ShellContent
+            Title="CalculatePage"
+            ContentTemplate="{DataTemplate local:CalculatePage}"
+            Route="CalculatePage"
+            Icon="icon home"/>
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Route="AboutPage" />
+    </TabBar>
 </Shell>

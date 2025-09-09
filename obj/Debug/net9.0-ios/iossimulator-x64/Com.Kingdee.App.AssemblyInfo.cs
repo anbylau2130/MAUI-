@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Com.Kingdee.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f130401152f75be6c73980e8e100cdf6e39b1835")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8f660f2e68c2577aa9ec6acb560cb7df8eb4acaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Com.Kingdee.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Com.Kingdee.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

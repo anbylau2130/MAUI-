@@ -51,11 +51,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
+
 [D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/CalculatePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.CalculatePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CalculatePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CalculatePage.xaml
+
+[D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/FriendsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Com.Kingdee.App.Views.FriendsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FriendsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FriendsPage.xaml
 
 [D:/Projects/netcore/MyCode/Com.Kingdee.App/Com.Kingdee.App/Views/GridLayoutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
